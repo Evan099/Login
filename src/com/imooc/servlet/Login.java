@@ -23,7 +23,6 @@ public class Login extends HttpServlet {
 	String username;
 	String password;
 
-
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("utf-8");
 		
